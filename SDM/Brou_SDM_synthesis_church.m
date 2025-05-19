@@ -1,0 +1,59 @@
+clear;
+clc;
+close all
+
+%% Load data
+fs = 48000;
+
+synthesisFolder = "Brou_LoV_synthesis/";
+synthFiles = dir(fullfile(synthesisFolder, "*.mat"));
+
+
+for i = 1:length(synthFiles)
+
+    file = synthFiles(i).name;
+    synth_lsp = load(fullfile(synthesisFolder, file)); % must contain `h_lsp`
+
+    % Scale h so that the filter has gain = 1 at maximum passband
+    h = synth_lsp.h_lsp / max(max(abs(fft(synth_lsp.h_lsp))));
+
+    %% Scale audio and calibrate loudspeakers
+    start_amplitude = 10; %
+    calibration_table = readtable("loudspeaker_calibration/tmp_calibrations.xlsx");
+    calibration_amplitudes = table2array(calibration_table(:, 4));
+
+    total_amplitudes = start_amplitude * calibration_amplitudes;
+
+    %% Convolute audio with dry audio signals
+
+    singer1 = audioread("dry_excitations/sollazzo_48k.wav");
+
+    fft_len = size(singer1, 1) + size(h, 1);
+
+    SINGER1 = fft(singer1(:, 1), fft_len);
+
+
+    H = fft(h, fft_len);
+
+    tmp_out = ifft(SINGER1 .* H);
+    conv = ifft(SINGER1 .* H);
+
+    figure, plot(conv(:,1)), hold on
+
+
+
+    out = ifft(SINGER1 .* H) .* total_amplitudes';
+    
+
+
+
+    %% Write to file
+    [~, baseName, ~] = fileparts(file);
+    baseName = baseName(end-3:end)
+    outputFile = fullfile("synthesized_scenarios", ...
+        ['tst_SDM_Sollazzo_Brou_church_' baseName '.wav']);
+    audiowrite(outputFile, out, fs, 'BitsPerSample', 32);
+
+    disp(['✅ Written: ', outputFile]);
+
+end
