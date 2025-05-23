@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.38/OSX64-clang" 1747818608
+<REAPER_PROJECT 0.1 "7.38/OSX64-clang" 1747746175
   RIPPLE 0 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 129
@@ -15,9 +15,9 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 7
-  ZOOM 16.7150303749532 0 0
-  VZOOMEX 4.80000019 1287
+  CURSOR 2
+  ZOOM 234.66681201477343 0 0
+  VZOOMEX 4.80000019 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -30,15 +30,14 @@
   <APPLYFX_CFG
   >
   RENDER_FILE ""
-  RENDER_PATTERN museumM_test5
-  RENDER_FMT 0 8 48000
+  RENDER_PATTERN museumM_test2
+  RENDER_FMT 0 12 48000
   RENDER_1X 0
   RENDER_RANGE 1 0 0 0 1000
   RENDER_RESAMPLE 3 0 1
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 3
   RENDER_DITHER 0
-  RENDER_TRIM 0 0 0 0
   TIMELOCKMODE 1
   TEMPOENVLOCKMODE 1
   ITEMMIX 1
@@ -64,8 +63,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 44 44
-  SELECTION2 44 44
+  SELECTION 78 0
+  SELECTION2 78 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -94,14 +93,6 @@
     ARM 0
     DEFSHAPE 1 -1 -1
   >
-  MARKER 1 6 start_speaker1 0 0 1 B {572EB928-DCBB-2F4F-A003-914B6A60D370} 0
-  MARKER 2 16 max_speaker1 0 0 1 B {69A46976-761A-CA4D-B8BA-B24EF66E6B44} 0
-  MARKER 3 22.04557671875115 start_speaker2-8 0 0 1 B {F8099028-4809-3249-B0EB-D677F328C930} 0
-  MARKER 4 30.86765752840805 max_speaker2-8 0 0 1 B {B5CCFBD5-5E41-D245-B524-CEBAF8049401} 0
-  MARKER 5 34 start_3-4 0 0 1 B {2F81465F-C06D-F445-BDA4-FDF00B477F4F} 0
-  MARKER 6 42 max_3-4 0 0 1 B {629A9C8D-E251-4543-AD40-D7E516BBED1E} 0
-  MARKER 7 56 "max 1 2 3" 0 0 1 B {710428B6-E0D9-AE48-8426-12D6F37E483E} 0
-  MARKER 8 64 "min 1 2 3" 0 0 1 B {411EF303-AA5D-084A-801D-379D5F25BC55} 0
   <PROJBAY
   >
   <TRACK {93A83BF9-633D-7B40-87A9-BA0BDEFFE64D}
@@ -111,7 +102,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1.03514216667934 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -137,9 +128,10 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 4 0.00000137 0
-      PT 8 0.2870442 0
+      PT 8 0.2870442 0 0 1
       PT 12 0 0
       PT 48 0 0
+      PT 52 0.13929138 0
     >
     <FXCHAIN
       WNDRECT 678 238 834 586
@@ -307,15 +299,15 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
-      IGUID {FC8F9BED-1526-A840-B674-C5CB3D74964A}
-      IID 57
+      SEL 1
+      IGUID {E2DC0B2F-A22B-2441-954A-EDDEDDB83094}
+      IID 82
       NAME bas.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {59064572-9123-4B4E-A23F-5BBE46E2F4B2}
+      GUID {1F0F728A-8FF5-9042-9675-8DECE51B64AF}
       <SOURCE WAVE
         FILE "Media/bas.wav"
       >
@@ -328,7 +320,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -354,18 +346,19 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 8 0 0
-      PT 14 0.00000049 0
-      PT 18 0.00000091 0
-      PT 26 0 0
+      PT 13.5 0.9772372 0
+      PT 18 0.00134896 0
+      PT 26 0.00014125 0
       PT 28 0 0
       PT 52 0 0
-      PT 54 0 0 0 1
+      PT 55 0.43297118 0
       PT 59 0 0
       PT 61 0 0
+      PT 64 0.52322503 0
       PT 110 0.00104713 0
     >
     <FXCHAIN
-      WNDRECT 435 188 834 586
+      WNDRECT 1726 93 834 586
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -533,14 +526,14 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {D158B33C-6666-4F42-BAC9-71690363581A}
-      IID 58
+      IGUID {EC1EF00F-3BE0-164D-9578-718B991FAFAE}
+      IID 78
       NAME contra.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {9FE51E1C-3866-F74C-906A-423BF7EA7AA0}
+      GUID {E8D87A2E-FF65-F14B-BED8-0EE53B37FB14}
       <SOURCE WAVE
         FILE "Media/contra.wav"
       >
@@ -580,11 +573,11 @@
       VOLTYPE 1
       PT 0 0 0
       PT 17 0 0
-      PT 24 0.00000031 0 0 1
+      PT 22.5 0.67059296 0 0 1
       PT 28 0.00006721 0
     >
     <FXCHAIN
-      WNDRECT 435 188 834 586
+      WNDRECT 1104 162 834 586
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -750,14 +743,14 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {0CE941F8-9484-924F-A1B3-1DAD8F569119}
-      IID 59
+      IGUID {CBE0D032-B9EB-154A-A9FF-C4B8D4DBB979}
+      IID 79
       NAME sopraan.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {1FFB7470-6F04-594A-BBCC-53608F05B717}
+      GUID {F883398D-C4FC-8747-AAB9-8EA96B5CB6BC}
       <SOURCE WAVE
         FILE "Media/sopraan.wav"
       >
@@ -796,8 +789,8 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 0 0
-      PT 35 0 0 0 1
-      PT 44 0.89378501 0
+      PT 38 0 0
+      PT 46 0.38127038 0
       PT 50 0 0
     >
     <FXCHAIN
@@ -967,14 +960,14 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {C9615D71-A0CE-4A49-944E-1EDFC2761D11}
-      IID 62
+      IGUID {F491574C-274B-F146-8C8F-CF147F4E1950}
+      IID 80
       NAME tenor1.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {84E54309-ADA4-914D-B424-7D7F590BCB86}
+      GUID {A304CD43-BC4E-1443-8BDC-27CEACCB6D9D}
       <SOURCE WAVE
         FILE "Media/tenor1.wav"
       >
@@ -1014,8 +1007,8 @@
       VOLTYPE 1
       PT 0 0.0000024 0
       PT 8 0 0
-      PT 13 0 0 0 1
-      PT 17 0 0
+      PT 12 0.17278262 0 0 1
+      PT 17 0.00000178 0
       PT 33 0.00000178 0
       PT 51 0.00000078 0
     >
@@ -1186,14 +1179,14 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {447C7689-2844-5845-9A74-F333544F25D7}
-      IID 61
+      IGUID {DE8771D1-8005-8B41-8912-6C448FE29F20}
+      IID 81
       NAME tenor2.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {0963ACE6-502A-8043-9700-E02480830CF8}
+      GUID {F6DB8D25-81A7-6645-868E-18E87A91495A}
       <SOURCE WAVE
         FILE "Media/tenor2.wav"
       >
@@ -1421,16 +1414,38 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {86E896FF-BA77-7E4A-A9F2-C350737CB590}
-      IID 55
+      IGUID {E737AEF1-A5FF-6441-81FE-771E25158619}
+      IID 49
+      NAME SDM_Utopia_Brou_church_contra_MM3.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AA7BF3BA-B970-4B4F-AC43-EAB52AB1D79E}
+      <SOURCE WAVE
+        FILE "SDM_utopia_5tracks_8speakers/SDM_Utopia_Brou_church_contra_MM3.wav"
+      >
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 84.94754166666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CBDCBF1F-AE34-384D-8685-5CCCF2AB5BE4}
+      IID 52
       NAME SDM_Utopia_Brou_church_tenor1_MM3.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {422400CF-5403-1B4E-8366-8479E2C9EEDA}
+      GUID {B2DAC1F4-04EE-F641-B279-A0A9063FBC53}
       <SOURCE WAVE
-        FILE "Media/SDM_Utopia_Brou_church_tenor1_MM3.wav"
+        FILE "SDM_utopia_5tracks_8speakers/SDM_Utopia_Brou_church_tenor1_MM3.wav"
       >
     >
   >
@@ -1468,16 +1483,38 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {289F32F4-75AC-5442-A86A-02B308AAE4A9}
-      IID 56
+      IGUID {8BFCC890-DE8E-A443-9A83-3680E8DEAB9B}
+      IID 49
+      NAME SDM_Utopia_Brou_church_contra_MM3.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D3E5196A-399C-9B49-BE59-49A144335AD8}
+      <SOURCE WAVE
+        FILE "SDM_utopia_5tracks_8speakers/SDM_Utopia_Brou_church_contra_MM3.wav"
+      >
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 84.94754166666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AD8EB8B7-7AB0-A54C-AE58-6AD934B9995A}
+      IID 53
       NAME SDM_Utopia_Brou_church_tenor2_MM3.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {B8ABEE43-69C7-0E47-B81B-3980A5F6696E}
+      GUID {05E73763-B126-0941-ADCF-30BBF7ADAA8E}
       <SOURCE WAVE
-        FILE "Media/SDM_Utopia_Brou_church_tenor2_MM3.wav"
+        FILE "SDM_utopia_5tracks_8speakers/SDM_Utopia_Brou_church_tenor2_MM3.wav"
       >
     >
   >
@@ -1513,12 +1550,12 @@
       ARM 1
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
-      PT 0 0 0
       PT 0.5 0 0
-      PT 6 0 0
-      PT 16 1.23026877 0
-      PT 56 1.02872783 0
-      PT 64 0 0
+      PT 10 0 0
+      PT 14 0.72048291 0
+      PT 20 0 0 0 1
+      PT 30 0 0
+      PT 34 0.69183098 0
     >
     AUXRECV 6 0 1 0 0 0 0 1025 1025 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1529,12 +1566,9 @@
       ARM 1
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
-      PT 0 0 0
       PT 6 0 0
-      PT 22 0 0
-      PT 30.86765753 1.02883763 0
-      PT 56 1.04712855 0
-      PT 64 0 0 0 1
+      PT 29 0 0 0 1
+      PT 34 1.19993004 0
     >
     AUXRECV 6 0 1 0 0 0 0 1026 1026 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1547,10 +1581,9 @@
       VOLTYPE 1
       PT 0 0.0000138 0
       PT 18 0 0
-      PT 34 0 0
-      PT 42 0.72048291 0
-      PT 56 0.80839512 0
-      PT 64 0 0 0 1
+      PT 34 0 0 0 1
+      PT 41 0.60589431 0
+      PT 74 0.51286138 0
     >
     AUXRECV 6 0 1 0 0 0 0 1027 1027 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1563,8 +1596,8 @@
       VOLTYPE 1
       PT 0 0 0
       PT 18 0 0
-      PT 34 0 0
-      PT 42 0.72048291 0 0 1
+      PT 35 0 0 0 1
+      PT 41 0.60589431 0
     >
     AUXRECV 6 0 1 0 0 0 0 1028 1028 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1599,13 +1632,8 @@
       ARM 1
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
-      PT 0 0 0
-      PT 14 0 0
-      PT 22.04557672 0 0
-      PT 34 0 0
-      PT 42 0.72048291 0
-      PT 56 0.72048291 0
-      PT 64 0 0 0 1
+      PT 0 0 0 0 1
+      PT 14 0 0 0 1
     >
     AUXRECV 6 0 1 0 0 0 0 1031 1031 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1616,12 +1644,8 @@
       ARM 1
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
-      PT 0 0 0
-      PT 16 0 0
-      PT 22.04557672 0 0
-      PT 30.86765753 0.73726512 0
-      PT 56 0.77201135 0
-      PT 64 0 0 0 1
+      PT 0 0 0 0 1
+      PT 16 0 0 0 1
     >
     AUXRECV 7 0 1 0 0 0 0 1024 1024 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1633,10 +1657,14 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0.5 0 0
-      PT 6.10794429 0 0
-      PT 16 0.72048291 0
-      PT 56 0.65708823 0
-      PT 64 0 0 0 1
+      PT 14 0 0
+      PT 22 0 0
+      PT 26 0.00000062 0 0 1
+      PT 28 0 0
+      PT 30 0 0
+      PT 34 0.69183098 0
+      PT 55 0.69183098 0
+      PT 58 0 0
     >
     AUXRECV 7 0 1 0 0 0 0 1025 1025 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1648,10 +1676,13 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 6 0 0
-      PT 22.04557672 0 0
-      PT 31 0.72048291 0
-      PT 56 0.68805584 0
-      PT 64 0 0 0 1
+      PT 22 0 0
+      PT 27 2 0 0 1
+      PT 32 0 0
+      PT 32 0 0
+      PT 37 1.256481 0
+      PT 55 1.19993004 0
+      PT 58 0 0
     >
     AUXRECV 7 0 1 0 0 0 0 1026 1026 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1668,12 +1699,14 @@
       PT 20 0 0
       PT 20 0.00000206 0
       PT 21 0.00000537 0
+      PT 27 0.00000919 0 0 1
       PT 30 0 0
       PT 31 0 0
       PT 34 0 0
-      PT 42 0.49389833 0
-      PT 56 0.51717505 0
-      PT 64 0 0 0 1
+      PT 41 0.60589431 0
+      PT 56 0.56201563 0
+      PT 60 0 0
+      PT 74 0 0
     >
     AUXRECV 7 0 1 0 0 0 0 1027 1027 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1687,10 +1720,12 @@
       PT 0 0 0
       PT 8 0 0
       PT 23 0 0
-      PT 28 0.00001514 0
-      PT 34 0 0
-      PT 42 0.49389833 0
-      PT 73 0.49389833 0
+      PT 28 0.00001514 0 0 1
+      PT 33 0 0
+      PT 35 0 0
+      PT 41 0.60589431 0
+      PT 56 0.60589431 0
+      PT 60 0.00006272 0
     >
     AUXRECV 7 0 1 0 0 0 0 1028 1028 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1706,9 +1741,11 @@
       PT 16.9995 0 0
       PT 17.000001 0 0
       PT 35 0 0
+      PT 40.5 0.65703439 0
+      PT 57 0.65703439 0
       PT 61 0 0
       PT 78 0.00000465 0
-      PT 166 0 0
+      PT 166 0 0 0 1
     >
     AUXRECV 7 0 1 0 0 0 0 1029 1029 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1722,7 +1759,7 @@
       PT 0 0 0
       PT 17 0 0
       PT 35.5 0 0
-      PT 106 0.00001793 0 0 1
+      PT 41 0.94078975 0 0 1
     >
     AUXRECV 7 0 1 0 0 0 0 1030 1030 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1736,10 +1773,7 @@
       PT 0 0 0
       PT 14 0 0
       PT 36 0 0
-      PT 42 0.86298966 0
-      PT 56 0.64916736 0
-      PT 64 0 0
-      PT 106 0.00001768 0 0 1
+      PT 41.5 0.65703439 0 0 1
     >
     AUXRECV 7 0 1 0 0 0 0 1031 1031 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1752,10 +1786,8 @@
       VOLTYPE 1
       PT 0 0 0
       PT 16 0 0
-      PT 22.04557672 0 0
-      PT 30.86765753 0.72048291 0
-      PT 56 0.82414873 0
-      PT 64 0 0 0 1
+      PT 35.5 0 0
+      PT 41.5 0.38198965 0 0 1
     >
     AUXRECV 8 0 1 0 0 0 0 1024 1024 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1767,10 +1799,13 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0.5 0 0
-      PT 6 0 0
-      PT 16 0.86298966 0
-      PT 56 0.86298966 0
-      PT 64 0 0 0 1
+      PT 14 0 0
+      PT 22 0 0
+      PT 27 1 0 0 1
+      PT 32 0 0
+      PT 35 0 0
+      PT 55 0.69183098 0
+      PT 58 0 0
     >
     AUXRECV 8 0 1 0 0 0 0 1025 1025 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1783,10 +1818,12 @@
       VOLTYPE 1
       PT 6 0 0
       PT 22 0 0
-      PT 31 1.12201845 0
-      PT 50 1.23026877 0
-      PT 56 1.12201845 0
-      PT 64 0 0 0 1
+      PT 27 2 0
+      PT 32 0 0
+      PT 32 0 0
+      PT 39 0.00000162 0 0 1
+      PT 55 1.19993004 0
+      PT 58 0 0
     >
     AUXRECV 8 0 1 0 0 0 0 1026 1026 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1803,13 +1840,14 @@
       PT 20 0 0
       PT 20 0.00000206 0
       PT 21 0.00000537 0
-      PT 27 0.00000919 0
+      PT 27 0.00000919 0 0 1
       PT 30 0 0
       PT 31 0 0
       PT 34 0 0
-      PT 42 0.59832941 0
-      PT 56 0.61226629 0
-      PT 64 0 0 0 1
+      PT 41 0.60589431 0
+      PT 56 0.56201563 0
+      PT 60 0 0
+      PT 74 0 0
     >
     AUXRECV 8 0 1 0 0 0 0 1027 1027 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1823,10 +1861,12 @@
       PT 0 0 0
       PT 8 0 0
       PT 23 0 0
-      PT 28 0.00001514 0
+      PT 28 0.00001514 0 0 1
       PT 33 0 0
-      PT 34 0 0
-      PT 42 0.59832941 0
+      PT 35 0 0
+      PT 41 0.60589431 0
+      PT 56 0.60589431 0
+      PT 60 0.00006272 0
     >
     AUXRECV 8 0 1 0 0 0 0 1028 1028 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1842,11 +1882,11 @@
       PT 16.9995 0 0
       PT 17.000001 0 0
       PT 35 0 0
-      PT 54 0.00000097 0 0 1
-      PT 60 0.00099446 0
+      PT 40.5 0.65703439 0
+      PT 57 0.65703439 0
       PT 61 0 0
       PT 78 0.00000465 0
-      PT 166 0 0
+      PT 166 0 0 0 1
     >
     AUXRECV 8 0 1 0 0 0 0 1029 1029 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1860,6 +1900,7 @@
       PT 0 0 0
       PT 17 0 0
       PT 35.5 0 0
+      PT 41 0.94078975 0 0 1
     >
     AUXRECV 8 0 1 0 0 0 0 1030 1030 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1872,11 +1913,8 @@
       VOLTYPE 1
       PT 0 0 0
       PT 14 0 0
-      PT 22.04557672 0 0
-      PT 34 0 0
-      PT 42 0.72048291 0
-      PT 56 0.72048291 0
-      PT 64 0 0 0 1
+      PT 36 0 0
+      PT 41.5 0.65703439 0 0 1
     >
     AUXRECV 8 0 1 0 0 0 0 1031 1031 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1889,10 +1927,8 @@
       VOLTYPE 1
       PT 0 0 0
       PT 16 0 0
-      PT 22.04557672 0 0
-      PT 30.86765753 0.72048291 0
-      PT 56 0.75443823 0
-      PT 64 0 0 0 1
+      PT 35.5 0 0
+      PT 41.5 0.38198965 0 0 1
     >
     AUXRECV 9 0 1 0 0 0 0 1024 1024 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1903,12 +1939,15 @@
       ARM 1
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
-      PT 0 0 0
-      PT 8 0 0
+      PT 0.5 0 0
       PT 14 0 0
-      PT 18 0.00000087 0
-      PT 22 0 0
-      PT 24 0 0
+      PT 20 0 0
+      PT 24 0.00000087 0
+      PT 28 0 0
+      PT 30 0 0
+      PT 34 0.69183098 0
+      PT 55 0.69183098 0
+      PT 58 0 0 0 1
     >
     AUXRECV 9 0 1 0 0 0 0 1025 1025 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1919,13 +1958,14 @@
       ARM 1
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
-      PT 0 0 0
-      PT 16 0 0
+      PT 6 0 0
       PT 22 0 0
-      PT 26 0 0
-      PT 26 0 0
-      PT 34 1.31569713 0 0 1
-      PT 48 0 0
+      PT 28 0 0 0 1
+      PT 32 0 0
+      PT 32 0 0
+      PT 37 1.256481 0
+      PT 55 1.19993004 0
+      PT 58 0 0
     >
     AUXRECV 9 0 1 0 0 0 0 1026 1026 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1936,21 +1976,20 @@
       ARM 1
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
-      PT 0 0.00000409 0
-      PT 12 0 0
-      PT 14 0 0
-      PT 14 0 0
-      PT 14 0.00000206 0
-      PT 15 0.00000537 0
-      PT 21 0.00000919 0
-      PT 24 0 0
-      PT 25 0 0
-      PT 26 0 0
-      PT 34 0.47863009 0 0 1
-      PT 48 0 0
-      PT 54 0 0
-      PT 68 0 0
-      PT 90.94804167 0 0
+      PT 0 0.0000138 0
+      PT 18 0 0
+      PT 20 0 0
+      PT 20 0 0
+      PT 20 0.00000206 0
+      PT 21 0.00000537 0
+      PT 27 0.00000919 0
+      PT 30 0 0
+      PT 31 0 0
+      PT 34 0 0
+      PT 46 0.29512092 0 0 1
+      PT 56 0 0
+      PT 60 0 0
+      PT 74 0 0
     >
     AUXRECV 9 0 1 0 0 0 0 1027 1027 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1962,14 +2001,14 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 0 0
-      PT 2 0 0
-      PT 17 0 0
-      PT 27 0 0
-      PT 29 0 0
-      PT 54 0.00006272 0
-      PT 84.94754167 0.00006272 0
-      PT 84.94804167 0.00005035 0
-      PT 90.94804167 0.00006272 0
+      PT 8 0 0
+      PT 23 0 0
+      PT 28 0.00001514 0 0 1
+      PT 33 0 0
+      PT 35 0 0
+      PT 41 0.60589431 0
+      PT 56 0.60589431 0
+      PT 60 0.00006272 0
     >
     AUXRECV 9 0 1 0 0 0 0 1028 1028 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1981,13 +2020,15 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 0 0
-      PT 9 0 0
-      PT 10.9995 0 0
-      PT 11.000001 0 0
-      PT 29 0 0
-      PT 55 0 0
-      PT 72 0.00000465 0
-      PT 166 0 0
+      PT 15 0 0
+      PT 16.9995 0 0
+      PT 17.000001 0 0
+      PT 35 0 0
+      PT 40.5 0.65703439 0
+      PT 57 0.65703439 0
+      PT 61 0 0
+      PT 78 0.00000465 0
+      PT 166 0 0 0 1
     >
     AUXRECV 9 0 1 0 0 0 0 1029 1029 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1999,8 +2040,9 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 0 0
-      PT 11 0 0
-      PT 29.5 0 0
+      PT 17 0 0
+      PT 35.5 0 0
+      PT 41 0.94078975 0 0 1
     >
     AUXRECV 9 0 1 0 0 0 0 1030 1030 -1:U 0 -1 ''
     <AUXVOLENV
@@ -2012,8 +2054,9 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 0 0
-      PT 8 0 0
-      PT 30 0 0
+      PT 14 0 0
+      PT 36 0 0
+      PT 41.5 0.65703439 0 0 1
     >
     AUXRECV 9 0 1 0 0 0 0 1031 1031 -1:U 0 -1 ''
     <AUXVOLENV
@@ -2025,8 +2068,9 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 0 0
-      PT 10 0 0
-      PT 29.5 0 0
+      PT 16 0 0
+      PT 35.5 0 0
+      PT 41.5 0.38198965 0 0 1
     >
     AUXRECV 10 0 1 0 0 0 0 1024 1024 -1:U 0 -1 ''
     <AUXVOLENV
