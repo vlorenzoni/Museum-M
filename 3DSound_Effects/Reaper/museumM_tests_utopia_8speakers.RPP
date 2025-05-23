@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.38/OSX64-clang" 1747668874
+<REAPER_PROJECT 0.1 "7.38/OSX64-clang" 1748001478
   RIPPLE 0 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 129
@@ -15,8 +15,8 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 39
-  ZOOM 9.14687902376017 0 0
+  CURSOR 0
+  ZOOM 7.83150366169336 0 0
   VZOOMEX 4.80000019 0
   USE_REC_CFG 0
   RECMODE 1
@@ -38,7 +38,6 @@
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 3
   RENDER_DITHER 0
-  RENDER_TRIM 0 0 0 0
   TIMELOCKMODE 1
   TEMPOENVLOCKMODE 1
   ITEMMIX 1
@@ -64,8 +63,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 71.5 0
-  SELECTION2 71.5 0
+  SELECTION 78 0
+  SELECTION2 78 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -103,13 +102,13 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1.03514216667934 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 64
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -415,7 +414,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -435,7 +434,7 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 8 0 0
-      PT 14 0.22908676 0 0 1
+      PT 13.5 0.9772372 0 0 1
       PT 18 0.00134896 0
       PT 26 0.00014125 0
       PT 28 0 0
@@ -896,7 +895,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -1135,7 +1134,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -1470,7 +1469,7 @@
     AUTOMODE 0
     PANLAWFLAGS 3
     VOLPAN 0.10063061733643 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -1507,6 +1506,191 @@
       GUID {AF72A63E-C64B-DD4D-87C3-244D74E4521A}
       <SOURCE WAVE
         FILE "/Users/hrosseel/Downloads/Media/SDM_Utopia_Brou_church_sopraan_MM3.wav"
+      >
+    >
+  >
+  <TRACK {B40F6F95-9283-E44F-AB32-B320814279C1}
+    NAME "SDM  - contra"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.10063061733643 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 8
+    FX 1
+    TRACKID {B40F6F95-9283-E44F-AB32-B320814279C1}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 84.94754166666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {763AFF64-D6BD-8B47-8003-8F4540803B8F}
+      IID 49
+      NAME SDM_Utopia_Brou_church_contra_MM3.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F2ED2AEB-0DD6-5644-B1EB-DA8A5E936273}
+      <SOURCE WAVE
+        FILE "SDM_utopia_5tracks_8speakers/SDM_Utopia_Brou_church_contra_MM3.wav"
+      >
+    >
+  >
+  <TRACK {7EDBA834-806D-5C40-90B8-EC621E0B9831}
+    NAME "SDM  - tenor1"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.10063061733643 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 8
+    FX 1
+    TRACKID {7EDBA834-806D-5C40-90B8-EC621E0B9831}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 84.94754166666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E737AEF1-A5FF-6441-81FE-771E25158619}
+      IID 49
+      NAME SDM_Utopia_Brou_church_contra_MM3.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AA7BF3BA-B970-4B4F-AC43-EAB52AB1D79E}
+      <SOURCE WAVE
+        FILE "SDM_utopia_5tracks_8speakers/SDM_Utopia_Brou_church_contra_MM3.wav"
+      >
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 84.94754166666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CBDCBF1F-AE34-384D-8685-5CCCF2AB5BE4}
+      IID 52
+      NAME SDM_Utopia_Brou_church_tenor1_MM3.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B2DAC1F4-04EE-F641-B279-A0A9063FBC53}
+      <SOURCE WAVE
+        FILE "SDM_utopia_5tracks_8speakers/SDM_Utopia_Brou_church_tenor1_MM3.wav"
+      >
+    >
+  >
+  <TRACK {5124D509-A861-6D4F-B8FF-6ECB00FA11B0}
+    NAME "SDM  - tenor2"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.10063061733643 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 8
+    FX 1
+    TRACKID {5124D509-A861-6D4F-B8FF-6ECB00FA11B0}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 84.94754166666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8BFCC890-DE8E-A443-9A83-3680E8DEAB9B}
+      IID 49
+      NAME SDM_Utopia_Brou_church_contra_MM3.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D3E5196A-399C-9B49-BE59-49A144335AD8}
+      <SOURCE WAVE
+        FILE "SDM_utopia_5tracks_8speakers/SDM_Utopia_Brou_church_contra_MM3.wav"
+      >
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 84.94754166666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AD8EB8B7-7AB0-A54C-AE58-6AD934B9995A}
+      IID 53
+      NAME SDM_Utopia_Brou_church_tenor2_MM3.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {05E73763-B126-0941-ADCF-30BBF7ADAA8E}
+      <SOURCE WAVE
+        FILE "SDM_utopia_5tracks_8speakers/SDM_Utopia_Brou_church_tenor2_MM3.wav"
       >
     >
   >
@@ -1650,13 +1834,13 @@
       VOLTYPE 1
       PT 0.5 0 0
       PT 14 0 0
-      PT 20 0 0
-      PT 24 0.00000087 0
+      PT 22 0 0
+      PT 26 0.00000062 0 0 1
       PT 28 0 0
       PT 30 0 0
       PT 34 0.69183098 0
       PT 55 0.69183098 0
-      PT 58 0 0 0 1
+      PT 58 0 0
     >
     AUXRECV 7 0 1 0 0 0 0 1025 1025 -1:U 0 -1 ''
     <AUXVOLENV
@@ -1770,6 +1954,431 @@
     AUXRECV 7 0 1 0 0 0 0 1031 1031 -1:U 0 -1 ''
     <AUXVOLENV
       EGUID {F75B31EB-1DA1-8442-8910-ABB3D699E2AE}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 16 0 0
+      PT 35.5 0 0
+      PT 41.5 0.38198965 0 0 1
+    >
+    AUXRECV 8 0 1 0 0 0 0 1024 1024 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {FC37D706-9027-2649-A25D-68D63389E067}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0.5 0 0
+      PT 14 0 0
+      PT 22 0 0
+      PT 27 1 0 0 1
+      PT 32 0 0
+      PT 35 0 0
+      PT 55 0.69183098 0
+      PT 58 0 0
+    >
+    AUXRECV 8 0 1 0 0 0 0 1025 1025 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {09698ECF-9BEA-224A-8B4E-04799E136280}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 6 0 0
+      PT 22 0 0
+      PT 27 2 0
+      PT 32 0 0
+      PT 32 0 0
+      PT 39 0.00000162 0 0 1
+      PT 55 1.19993004 0
+      PT 58 0 0
+    >
+    AUXRECV 8 0 1 0 0 0 0 1026 1026 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {0663D604-70BB-0F41-AE9A-6978C49E58C7}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0.0000138 0
+      PT 18 0 0
+      PT 20 0 0
+      PT 20 0 0
+      PT 20 0.00000206 0
+      PT 21 0.00000537 0
+      PT 27 0.00000919 0 0 1
+      PT 30 0 0
+      PT 31 0 0
+      PT 34 0 0
+      PT 41 0.60589431 0
+      PT 56 0.56201563 0
+      PT 60 0 0
+      PT 74 0 0
+    >
+    AUXRECV 8 0 1 0 0 0 0 1027 1027 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {743BD6EB-2E39-9742-83B8-8DFB849F8607}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 8 0 0
+      PT 23 0 0
+      PT 28 0.00001514 0 0 1
+      PT 33 0 0
+      PT 35 0 0
+      PT 41 0.60589431 0
+      PT 56 0.60589431 0
+      PT 60 0.00006272 0
+    >
+    AUXRECV 8 0 1 0 0 0 0 1028 1028 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {CEB2F819-5D2A-8342-984D-95F28AB2DFD9}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 15 0 0
+      PT 16.9995 0 0
+      PT 17.000001 0 0
+      PT 35 0 0
+      PT 40.5 0.65703439 0
+      PT 57 0.65703439 0
+      PT 61 0 0
+      PT 78 0.00000465 0
+      PT 166 0 0 0 1
+    >
+    AUXRECV 8 0 1 0 0 0 0 1029 1029 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {75E897AC-207D-FD46-B1C1-EC87D59F0F1A}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 17 0 0
+      PT 35.5 0 0
+      PT 41 0.94078975 0 0 1
+    >
+    AUXRECV 8 0 1 0 0 0 0 1030 1030 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {0E40D9F4-6976-2643-8820-CA5F6914F210}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 14 0 0
+      PT 36 0 0
+      PT 41.5 0.65703439 0 0 1
+    >
+    AUXRECV 8 0 1 0 0 0 0 1031 1031 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {E2AF696B-611E-D240-978D-53DC89A7C396}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 16 0 0
+      PT 35.5 0 0
+      PT 41.5 0.38198965 0 0 1
+    >
+    AUXRECV 9 0 1 0 0 0 0 1024 1024 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {3AAFFCF5-675D-CF44-865E-3C92EC1165D3}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0.5 0 0
+      PT 14 0 0
+      PT 20 0 0
+      PT 24 0.00000087 0
+      PT 28 0 0
+      PT 30 0 0
+      PT 34 0.69183098 0
+      PT 55 0.69183098 0
+      PT 58 0 0 0 1
+    >
+    AUXRECV 9 0 1 0 0 0 0 1025 1025 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {3C1EAFEA-A31B-D24C-85CF-B39C0F875E4A}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 6 0 0
+      PT 22 0 0
+      PT 28 0 0 0 1
+      PT 32 0 0
+      PT 32 0 0
+      PT 37 1.256481 0
+      PT 55 1.19993004 0
+      PT 58 0 0
+    >
+    AUXRECV 9 0 1 0 0 0 0 1026 1026 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {FE69D825-B043-1A41-BF34-7988006D81C5}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0.0000138 0
+      PT 18 0 0
+      PT 20 0 0
+      PT 20 0 0
+      PT 20 0.00000206 0
+      PT 21 0.00000537 0
+      PT 27 0.00000919 0
+      PT 30 0 0
+      PT 31 0 0
+      PT 34 0 0
+      PT 46 0.29512092 0 0 1
+      PT 56 0 0
+      PT 60 0 0
+      PT 74 0 0
+    >
+    AUXRECV 9 0 1 0 0 0 0 1027 1027 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {82934C04-BD3B-1046-8F13-63DA1597190B}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 8 0 0
+      PT 23 0 0
+      PT 28 0.00001514 0 0 1
+      PT 33 0 0
+      PT 35 0 0
+      PT 41 0.60589431 0
+      PT 56 0.60589431 0
+      PT 60 0.00006272 0
+    >
+    AUXRECV 9 0 1 0 0 0 0 1028 1028 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {A4B50C22-B869-F74D-9E11-258BD1CD337E}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 15 0 0
+      PT 16.9995 0 0
+      PT 17.000001 0 0
+      PT 35 0 0
+      PT 40.5 0.65703439 0
+      PT 57 0.65703439 0
+      PT 61 0 0
+      PT 78 0.00000465 0
+      PT 166 0 0 0 1
+    >
+    AUXRECV 9 0 1 0 0 0 0 1029 1029 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {6E8EBB60-0806-0B49-8761-E5A2C8DC7E07}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 17 0 0
+      PT 35.5 0 0
+      PT 41 0.94078975 0 0 1
+    >
+    AUXRECV 9 0 1 0 0 0 0 1030 1030 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {BB6B1B34-A9EC-7942-97C8-2297FD54B3B8}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 14 0 0
+      PT 36 0 0
+      PT 41.5 0.65703439 0 0 1
+    >
+    AUXRECV 9 0 1 0 0 0 0 1031 1031 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {4ABE52BB-ACE1-BB45-9F30-021FA86CC04B}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 16 0 0
+      PT 35.5 0 0
+      PT 41.5 0.38198965 0 0 1
+    >
+    AUXRECV 10 0 1 0 0 0 0 1024 1024 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {529DAA9E-8F6A-914D-8DDF-B2374ABEE74F}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0.5 0 0
+      PT 14 0 0
+      PT 20 0 0
+      PT 24 0.00000087 0
+      PT 28 0 0
+      PT 30 0 0
+      PT 34 0.69183098 0
+      PT 55 0.69183098 0
+      PT 58 0 0 0 1
+    >
+    AUXRECV 10 0 1 0 0 0 0 1025 1025 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {BF247855-1CA3-E34D-95D8-16144095C3C3}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 6 0 0
+      PT 22 0 0
+      PT 28 0.00000011 0 0 1
+      PT 32 0 0
+      PT 32 0 0
+      PT 37 1.256481 0
+      PT 55 1.19993004 0
+      PT 58 0 0
+    >
+    AUXRECV 10 0 1 0 0 0 0 1026 1026 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {35056C0B-A408-7D42-904B-16E996E6F22C}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0.0000138 0
+      PT 18 0 0
+      PT 20 0 0
+      PT 20 0 0
+      PT 20 0.00000206 0
+      PT 21 0.00000537 0
+      PT 27 0.00000919 0 0 1
+      PT 30 0 0
+      PT 31 0 0
+      PT 34 0 0
+      PT 41 0.60589431 0
+      PT 56 0.56201563 0
+      PT 60 0 0
+      PT 74 0 0
+    >
+    AUXRECV 10 0 1 0 0 0 0 1027 1027 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {ED2F7B44-55E6-B249-A5BA-4F19A9631A80}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 8 0 0
+      PT 23 0 0
+      PT 28 0.00001514 0 0 1
+      PT 33 0 0
+      PT 35 0 0
+      PT 41 0.60589431 0
+      PT 56 0.60589431 0
+      PT 60 0.00006272 0
+    >
+    AUXRECV 10 0 1 0 0 0 0 1028 1028 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {3B66176F-03C5-D042-87D2-A7FE285B3A1F}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 15 0 0
+      PT 16.9995 0 0
+      PT 17.000001 0 0
+      PT 35 0 0
+      PT 40.5 0.65703439 0
+      PT 57 0.65703439 0
+      PT 61 0 0
+      PT 78 0.00000465 0
+      PT 166 0 0 0 1
+    >
+    AUXRECV 10 0 1 0 0 0 0 1029 1029 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {C8A09E34-86E8-F84A-B918-F31DB8540B19}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 17 0 0
+      PT 35.5 0 0
+      PT 41 0.94078975 0 0 1
+    >
+    AUXRECV 10 0 1 0 0 0 0 1030 1030 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {32BB659C-C3A5-2E48-BAE1-E3A233385D8A}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0 0
+      PT 14 0 0
+      PT 36 0 0
+      PT 41.5 0.65703439 0 0 1
+    >
+    AUXRECV 10 0 1 0 0 0 0 1031 1031 -1:U 0 -1 ''
+    <AUXVOLENV
+      EGUID {EE67DEF8-3C02-684C-B5B4-F2BD8D179126}
       ACT 1 -1
       VIS 1 1 1
       LANEHEIGHT 0 0
