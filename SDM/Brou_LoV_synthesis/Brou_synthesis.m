@@ -3,6 +3,7 @@ clear; clc;
 
 lsp_prefixes = ["MM1", "MM2","MM3","MM4","MM5"];
 
+rotation  = 90; % it is rotation in the room wrt actual measurements
 
 fs = 48000;
 
@@ -20,6 +21,6 @@ s = createSynthesisStruct('lspLocs', [azi, ele, r], 'snfft', L, ...
 for lsp = lsp_prefixes
         disp("SDM synthesis for measurement position: " + lsp )
         srir = load("../srirs/SDM_Brou_pos_" + lsp  + ".mat");
-        h_lsp = synthesizeSDMCoeffs(srir.ref_p{1}, srir.DOA{1}, s);
+        h_lsp = modSynthesizeSDMCoeffs(srir.ref_p{1}, srir.DOA{1}, s, rotation);
         save("h_lsp_" + lsp + ".mat", "h_lsp");
 end

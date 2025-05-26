@@ -1,0 +1,69 @@
+clear;
+clc;
+close all
+
+%% Load data
+fs = 44100;
+
+synthesisFolder = "Brou_LoV_synthesis/";
+synthFiles = dir(fullfile(synthesisFolder, "*.mat"));
+
+
+for i = 1:length(synthFiles)
+
+    file = synthFiles(i).name;
+    synth_lsp = load(fullfile(synthesisFolder, file)); % must contain `h_lsp`
+
+    % Scale h so that the filter has gain = 1 at maximum passband
+    h = synth_lsp.h_lsp / max(max(abs(fft(synth_lsp.h_lsp))));
+
+    %% Scale audio and calibrate loudspeakers
+    start_amplitude = 10; %
+    calibration_table = readtable("loudspeaker_calibration/tmp_calibrations.xlsx");
+    calibration_amplitudes = table2array(calibration_table(:, 4));
+
+    total_amplitudes = start_amplitude * calibration_amplitudes;
+
+    %% Convolute audio with dry audio signals
+
+
+    voice_name = "sopraan.wav";
+
+    [singer1, originalFs] = audioread("dry_excitations/multi_tracks_utopia/"+ voice_name);
+    
+    desiredFs = 48000;
+
+    [p,q] = rat(desiredFs / originalFs);
+
+    singer1 = resample(singer1, p,q);
+
+    fft_len = size(singer1, 1) + size(h, 1);
+
+    SINGER1 = fft(singer1(:, 1), fft_len);
+
+
+    H = fft(h, fft_len);
+
+    tmp_out = ifft(SINGER1 .* H);
+    conv = ifft(SINGER1 .* H);
+
+   % figure, plot(conv(:,1)), hold on
+
+    out = ifft(SINGER1 .* H) .* total_amplitudes';
+    
+    %% Write to file
+    [~, baseName, ~] = fileparts(file);
+    baseName = baseName(end-3:end); % remove .mat at the end
+    
+
+
+    outputFile = fullfile("synthesized_scenarios","utopia_5tracks_8speakers","rotated90","SDM_Utopia_Brou_church_" + extractBefore(voice_name, ".wav") + "_" + extractAfter(baseName, length(baseName)-3) + ".wav");
+
+%     outputFile = fullfile("synthesized_scenarios", ...
+%         ['SDM_church_' voice_name '_' baseName '.wav']);
+    
+    audiowrite(outputFile, out, desiredFs, 'BitsPerSample', 32);
+
+    disp(['✅ Written: ', outputFile]);
+
+end
